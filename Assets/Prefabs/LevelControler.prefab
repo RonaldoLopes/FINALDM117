@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1312681826879860}
+  m_IsPrefabParent: 1
+--- !u!1 &1312681826879860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4831785756298954}
+  - component: {fileID: 114444159455154740}
+  m_Layer: 0
+  m_Name: LevelControler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4831785756298954
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1312681826879860}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 310, y: 199, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114444159455154740
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1312681826879860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 576d378b1e425d643b8463a2c82e6725, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  environment: {fileID: 0}
+  asteroidsType1:
+  - {fileID: 4138919830131540, guid: 7d0651c87a148504c86af628ff39db31, type: 2}
+  - {fileID: 4655109098724360, guid: 1d19fc6dd1cf4a4429b26a38ed1a4fdf, type: 2}
+  - {fileID: 4654063486414402, guid: 282426730dbc99141b8f7da609884210, type: 2}
+  asteroidsType2:
+  - {fileID: 4508413711223610, guid: 4df968d01071d6943a2efa57802c7563, type: 2}
+  - {fileID: 4511596310177888, guid: 9459c0ad99086164d945128a204a54d1, type: 2}
+  - {fileID: 4370121068563998, guid: 46588684948b4d54bb35fff7022d5e8c, type: 2}
+  asteroidsType3:
+  - {fileID: 4295324554268008, guid: 48eb2e989a96f014db640190c5fd37e1, type: 2}
+  - {fileID: 4644794456036990, guid: 02a8660d91ce72c4fa613bc5a2100015, type: 2}
+  - {fileID: 4415276015747880, guid: ffbc50e1178a743499f3f97ebb699f34, type: 2}
+  shield: {fileID: 4450190353114668, guid: d8ac689ad1cbfca4b82ccc06dba5020a, type: 2}
+  spaceShip: {fileID: 1162172433202322, guid: a630c789a19d51f4c8fbc7b049b82ad3, type: 2}
+  intevalTimeSeconds: 3
+  numAsteroidsType1: 1
+  numAsteroidsType2: 2
+  numAsteroidsType3: 3
+  numShields: 3
+  numAsteroidsPerBonus: 10
+  lateralSpeed: 5
+  pauseMenuPainel: {fileID: 0}
+  gameOverMenuPainel: {fileID: 0}
+  infoPanel: {fileID: 0}
+  numAsteroids: 0
+  numShield: 0
+  numBonus: 0
+  numAsteroidsDestroyedPerBonus: 0
